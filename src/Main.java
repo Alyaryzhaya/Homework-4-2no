@@ -10,7 +10,13 @@ public class Main {
 
         double index = service.calculate(weight, growth);
 
-        System.out.println(index);
+
+        // округление
+        String result = String.format("%.2f", index);
+        System.out.print(result);
+
+
+        // System.out.println(index);
 
 
     }

@@ -3,6 +3,7 @@ public class BmiService {
 
         double index = weight / (growth / 100 * growth / 100);
 
+
         return index;
 
 
